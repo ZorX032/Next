@@ -15,6 +15,12 @@ export const Menu = () => {
             <li>
                 <Link href="/users">users</Link>
             </li>
+            <li>
+                <Link href="/posts">posts</Link>
+            </li>
+            <li>
+                <Link href="/comments">comments</Link>
+            </li>
         </ul>
     );
 };

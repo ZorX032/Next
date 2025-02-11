@@ -1,11 +1,11 @@
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'UserLayout metadata'
+    title: 'UsersLayout metadata'
 }
 
 type Props = {children: React.ReactNode}
-const UserLayout =
+const CarsLayout =
     ({children}: Props) => {
         return (
             <div>
@@ -14,4 +14,4 @@ const UserLayout =
         );
     };
 
-export default UserLayout;
+export default CarsLayout;
